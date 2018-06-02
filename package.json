@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "package-file": "webpack --mode development ./hello.js --output ./hello.bundle.js",
-    "package-file-module-bind": "webpack --mode development ./hello.js --output ./hello.bundle.js --module-bind css=style-loader!css-loader"
+    "package-file-module-bind": "webpack --mode development ./hello.js --output ./hello.bundle.js --module-bind css=style-loader!css-loader",
+    "package-file-module-bind-auto": "webpack --mode development ./hello.js --output ./hello.bundle.js --module-bind css=style-loader!css-loader --watch"
   },
   "repository": {
     "type": "git",

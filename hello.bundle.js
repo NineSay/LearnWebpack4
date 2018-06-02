@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./world.js */ \"./world.js\")\r\n__webpack_require__(/*! ./style.css */ \"./style.css\")\r\n\r\nfunction Hello(str){\r\n    alert(str);\r\n}\r\n\r\nHello('hello world!');\n\n//# sourceURL=webpack:///./hello.js?");
+eval("__webpack_require__(/*! ./world.js */ \"./world.js\")\r\n__webpack_require__(/*! ./style.css */ \"./style.css\")\r\n\r\nfunction Hello(str){\r\n    alert(str);\r\n}\r\n\r\nHello('hello world!!!!!!');\n\n//# sourceURL=webpack:///./hello.js?");
 
 /***/ }),
 

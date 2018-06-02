@@ -5,4 +5,4 @@ function Hello(str){
     alert(str);
 }
 
-Hello('hello world!');
+Hello('hello world!!!!!!');
