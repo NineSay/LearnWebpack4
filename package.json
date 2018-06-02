@@ -4,7 +4,8 @@
   "description": "Learn Webpack 4",
   "main": "index.js",
   "scripts": {
-    "package-file": "webpack --mode development ./hello.js --output ./hello.bundle.js"
+    "package-file": "webpack --mode development ./hello.js --output ./hello.bundle.js",
+    "package-file-module-bind": "webpack --mode development ./hello.js --output ./hello.bundle.js --module-bind css=style-loader!css-loader"
   },
   "repository": {
     "type": "git",
