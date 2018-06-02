@@ -12,3 +12,7 @@ npm install --save-dev webpack
 
 #### 本地安装 Webpack-cli
 npm install --save-dev webpack-cli
+
+
+#### CSS 处理
+npm install --save-dev style-loader css-loader

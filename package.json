@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/NineSay/LearnWebpack4#readme",
   "devDependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.0"
   }
