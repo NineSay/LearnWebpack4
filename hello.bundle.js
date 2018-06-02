@@ -91,9 +91,20 @@
   !*** ./hello.js ***!
   \******************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./world */ \"./world.js\")\r\n\r\nfunction Hello(str){\r\n    alert(str);\r\n}\r\n\n\n//# sourceURL=webpack:///./hello.js?");
+
+/***/ }),
+
+/***/ "./world.js":
+/*!******************!*\
+  !*** ./world.js ***!
+  \******************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function Hello(str){\r\n    alert(str);\r\n}\r\n\n\n//# sourceURL=webpack:///./hello.js?");
+eval("function world(){\r\n    return {\r\n        \r\n    }\r\n}\n\n//# sourceURL=webpack:///./world.js?");
 
 /***/ })
 
