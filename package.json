@@ -4,7 +4,9 @@
   "description": "Learn Webpack 4",
   "main": "index.js",
   "scripts": {
-    
+    "webpack": "webpack",
+    "webpack-pro": "webpack --config webpack.production.config.js",
+    "webpack-dev": "webpack --config webpack.development.config.js"
   },
   "repository": {
     "type": "git",
