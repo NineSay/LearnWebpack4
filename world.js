@@ -1,5 +1,5 @@
-function world(){
+function World(){
     return {
-        
+
     }
 }
